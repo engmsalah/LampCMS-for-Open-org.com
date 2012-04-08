@@ -123,6 +123,7 @@ class ProfileDiv extends LampcmsObject
 		$vars = array(
 			'editLink' => $edit,
 			'username' => $this->User->username,
+			'username' => $this->User->username,
 			'avatar' => $this->User->getAvatarImgSrc(),
 			'profitpoint' => $pp,
 			'name' => $this->User->getDisplayName(),
